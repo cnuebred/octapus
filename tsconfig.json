@@ -1,0 +1,15 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "ES2022",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "rootDir": "src",
+        "outDir": "build"
+    },
+    "include": ["src/*"],
+    "exclude": ["node_modules", "build", "test"]
+}
